@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - LuxTime</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="barra-navegacion">
+            <a href="index.html" class="logotipo">LuxTime</a>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="enlaces-navegacion">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="detalles-del-producto.html">detalles del producto</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <div class="container">
+                <h2>Contáctanos</h2>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="full-name">Nombre Completo</label>
+                            <input type="text" id="full-name" name="full-name" required placeholder="Tu nombre completo">
+                            <span class="error-message">Este campo es obligatorio.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" id="email" name="email" required placeholder="tu.correo@ejemplo.com">
+                            <span class="error-message">Introduce un correo electrónico válido.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono (opcional)</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{7,15}" placeholder="Ej: 3001234567">
+                            <span class="error-message">Introduce un número de teléfono válido (7-15 dígitos).</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                            <span class="error-message">Este campo es obligatorio.</span>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
+
+                    <div class="contact-info">
+                        <h3>Información de Contacto Directo</h3>
+                        <p>¿Prefieres hablar directamente? Estamos aquí para ayudarte.</p>
+                        <ul class="info-list">
+                            <li><strong>Correo:</strong> <a href="mailto:info@luxtime.com">info@LuxTime.com</a></li>
+                            <li><strong>Teléfono:</strong> <a href="tel:+12345678900">+1 (234) 517-0900</a></li>
+                            <li><strong>Dirección:</strong> Calle imaginaria #182, Ciudad de cucuta, LT 131300</li>
+                        </ul>
+                
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor">
+            <p>&copy; 2025 LuxTime. Todos los derechos reservados.</p>
+            <div class="socials">
+                <a href="" title="Facebook" target="blank">
+            <img src="./social/facebook.png" alt="">
+        </a>
+        <a href="" title="Instagram" target="blank">
+            <img src="./social/instagram.png" alt="">
+        </a>
+        <a href="" title="Email" target="blank">
+            <img src="./social/gmail.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

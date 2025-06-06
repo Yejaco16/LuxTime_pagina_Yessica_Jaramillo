@@ -1,0 +1,219 @@
+   <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - LuxTime</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="barra-navegacion">
+            <a href="index.html" class="logotipo">LuxTime</a>
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul class="enlaces-navegacion">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="detalles-del-producto.html">Detalles del Producto</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="seccion-catalogo">
+            <div class="contenedor">
+                <h2>Nuestro Catálogo</h2>
+                <div class="controles-catalogo">
+                    <div class="filtros">
+                        <h3>Filtrar por:</h3>
+                        <div class="grupo-filtro">
+                            <h4>Material</h4>
+                            <label class="opcion-filtro"><input type="radio" name="material" value="todos" checked> Todos</label>
+                            <label class="opcion-filtro"><input type="radio" name="material" value="acero"> Acero</label>
+                            <label class="opcion-filtro"><input type="radio" name="material" value="oro"> Oro</label>
+                            <label class="opcion-filtro"><input type="radio" name="material" value="cuero"> Cuero</label>
+                        </div>
+                        <div class="grupo-filtro">
+                            <h4>Rango de Precios</h4>
+                            <label class="opcion-filtro"><input type="radio" name="rango-precios" value="todos" checked> Todos</label>
+                            <label class="opcion-filtro"><input type="radio" name="rango-precios" value="50,000-150,000"> $50,000 - $150,000</label>
+                            <label class="opcion-filtro"><input type="radio" name="rango-precios" value="150,000-500,000"> $150,000- $500,000</label>
+                            <label class="opcion-filtro"><input type="radio" name="rango-precios" value="500,000-mas"> $500,000+</label>
+                        </div>
+                    </div>
+
+                    <div class="alternar-vista">
+                        <button class="btn btn-pequeno activo" id="btn-vista-cuadricula">Vista Cuadrícula</button>
+                        <button class="btn btn-pequeno" id="btn-vista-lista">Vista Lista</button>
+                    </div>
+                </div>
+
+                <div class="lista-productos vista-cuadricula" id="lista-productos">
+                    <div class="tarjeta-reloj item-producto" data-material="acero" data-precio="$682,000">
+                        <img src="https://www.peru-smart.com/wp-content/uploads/2024/02/REHO053NEGRO-DORADO.jpg" alt="Reloj Modelo Alpha">
+                        <h3>Reloj Modelo Alpha</h3>
+                        <p class="precio">$682,000 COP</p>
+                        <span class="disponibilidad en-stock">En stock</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                    <div class="tarjeta-reloj item-producto" data-material="cuero" data-precio="$862,000">
+                        <img src="https://m.media-amazon.com/images/I/71zGqNSYeCL._AC_UY900_.jpg" alt="Reloj Modelo Beta">
+                        <h3>Reloj Modelo Beta</h3>
+                        <p class="precio">$862,000 COP</p>
+                        <span class="disponibilidad en-stock">En stock</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                    <div class="tarjeta-reloj item-producto" data-material="oro" data-precio="$662,000">
+                        <img src="https://i1.wp.com/marcas-relojes.com/wp-content/uploads/2017/03/99986190_v_1439886509.jpg" alt="Reloj Modelo Gamma">
+                        <h3>Reloj Modelo Gamma</h3>
+                        <p class="precio">$662,000 COP</p>
+                        <span class="disponibilidad en-stock">En stock</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                    <div class="tarjeta-reloj item-producto" data-material="acero" data-precio="$99,000">
+                        <img src="https://oechsle.vteximg.com.br/arquivos/ids/13974327-1000-1000/image-6fd6a1bcdf77409f93a2b59a6a3b4c6a.jpg?v=638134161378230000" alt="Reloj Modelo Delta">
+                        <h3>Reloj Modelo Delta</h3>
+                        <p class="precio">$99,000 COP</p>
+                        <span class="disponibilidad en-stock">En stock</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                    <div class="tarjeta-reloj item-producto" data-material="acero" data-precio="$84,000">
+                        <img src="https://m.media-amazon.com/images/I/81YwYtQ8bPS._AC_SL1500_.jpg" alt="Reloj Modelo Épsilon">
+                        <h3>Reloj Modelo Épsilon</h3>
+                        <p class="precio">$84,000 COP</p>
+                        <span class="disponibilidad agotado">Agotado</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                    <div class="tarjeta-reloj item-producto" data-material="cuero" data-precio="$98,000">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsEzTP0sBZAkEDg3PvLA7kXWknHlryNEKyeQ&s" alt="Reloj Modelo Zeta">
+                        <h3>Reloj Modelo Zeta</h3>
+                        <p class="precio">$98,000 COP</p>
+                        <span class="disponibilidad en-stock">En stock</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                    <div class="tarjeta-reloj item-producto" data-material="oro" data-precio="$999,000">
+                        <img src="https://www.joyeriaoliva.com/wp-content/uploads/2021/08/reloj-lotus-multifuncion-hombre-188121.jpg" alt="Reloj Modelo Eta">
+                        <h3>Reloj Modelo Eta</h3>
+                        <p class="precio">$999,000 COP</p>
+                        <span class="disponibilidad en-stock">En stock</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                    <div class="tarjeta-reloj item-producto" data-material="acero" data-precio="$53,000">
+                        <img src="https://es.watchesofamerica.com/cdn/shop/products/diesel-mr.-daddy-2.0-gold-tone-dial-men_s-chronograph-watch-dz7399_2_600x.jpg?v=1734282655" alt="Reloj Modelo Theta">
+                        <h3>Reloj Modelo Theta</h3>
+                        <p class="precio">$53,000 COP</p>
+                        <span class="disponibilidad en-stock">En stock</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                    <div class="tarjeta-reloj item-producto" data-material="cuero" data-precio="$69,000 ">
+                        <img src="https://www.revolution.watch/mxl/wp-content/uploads/2018/04/portada-18.jpg" alt="Reloj Modelo Iota">
+                        <h3>Reloj Modelo Iota</h3>
+                        <p class="precio">$69,000 COP</p>
+                        <span class="disponibilidad agotado">Agotado</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                     <div class="tarjeta-reloj item-producto" data-material="acero" data-precio="$69,000 ">
+                        <img src="https://okdiario.com/coolthelifestyle/img/2023/05/11/image-1-1.jpg "alt="Reloj Modelo Kappa">
+                        <h3>Reloj Modelo Kappa</h3>
+                        <p class="precio">$69,000 COP</p>
+                        <span class="disponibilidad en-stock">En stock</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                    <div class="tarjeta-reloj item-producto" data-material="oro" data-precio="$107,000 ">
+                        <img src="https://www.joyeriasjolfer.es/shop/files/fotos_web/0638475.jpg" alt="Reloj Modelo Lambda">
+                        <h3>Reloj Modelo Lambda</h3>
+                        <p class="precio">$107,000 COP</p>
+                        <span class="disponibilidad en-stock">En stock</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                    <div class="tarjeta-reloj item-producto" data-material="acero" data-precio="$64,000">
+                        <img src="https://mwhite.com.co/cdn/shop/files/reloj-mido-dorada-m033-410-33-031-00-relojes-754.webp?v=1713432834" alt="Reloj Modelo Mu">
+                        <h3>Reloj Modelo Mu</h3>
+                        <p class="precio">$64,000 COP</p>
+                        <span class="disponibilidad en-stock">En stock</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                    <div class="tarjeta-reloj item-producto" data-material="cuero" data-precio="$120,000">
+                        <img src="https://stuhrling.mx/cdn/shop/files/567_3970_set_preset_f9406859-f5b0-46a5-84c2-94cbf3aed118.png?v=1747417249&width=700" alt="Reloj Modelo Nu">
+                        <h3>Reloj Modelo Nu</h3>
+                        <p class="precio">$120,000 COP</p>
+                        <span class="disponibilidad en-stock">En stock</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                    <div class="tarjeta-reloj item-producto" data-material="acero" data-precio="$62,000">
+                        <img src="https://grupoduplex.com/wp-content/uploads/2025/01/tissot25-1.jpg" alt="Reloj Modelo Xi">
+                        <h3>Reloj Modelo Xi</h3>
+                        <p class="precio">$62,000 COP</p>
+                        <span class="disponibilidad en-stock">En stock</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                    <div class="tarjeta-reloj item-producto" data-material="oro" data-precio="$690,000">
+                        <img src="https://www.rabat.net/pub/media/wysiwyg/category/relojes-femeninos-joyeria-rabat-es-1650x950px.jpg" alt="Reloj Modelo Ómicron">
+                        <h3>Reloj Modelo Ómicron</h3>
+                        <p class="precio">$690,000 COP</p>
+                        <span class="disponibilidad en-stock">En stock</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                    <div class="tarjeta-reloj item-producto" data-material="acero" data-precio="$76,000">
+                        <img src="https://m.media-amazon.com/images/I/71+kXwcGDaL._AC_SL1500_.jpg" alt="Reloj Modelo Pi">
+                        <h3>Reloj Modelo Pi</h3>
+                        <p class="precio">$76,000 COP</p>
+                        <span class="disponibilidad en-stock">En stock</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                    <div class="tarjeta-reloj item-producto" data-material="cuero" data-precio="$132,000">
+                        <img src="https://stuhrling.mx/cdn/shop/files/3950al7_39655_49811ccf-cb98-4061-804c-46832d16b144.png?v=1747417271" alt="Reloj Modelo Rho">
+                        <h3>Reloj Modelo Rho</h3>
+                        <p class="precio">$132,000 COP</p>
+                        <span class="disponibilidad en-stock">En stock</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                    <div class="tarjeta-reloj item-producto" data-material="acero" data-precio="$210,000">
+                        <img src="https://m.media-amazon.com/images/I/71NL5tE4M8L._AC_UY1000_.jpg" alt="Reloj Modelo Sigma">
+                        <h3>Reloj Modelo Sigma</h3>
+                        <p class="precio">$210,000 COP</p>
+                        <span class="disponibilidad en-stock">En stock</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                    <div class="tarjeta-reloj item-producto" data-material="oro" data-precio="$67,000">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS74Xpoo2ZITdgn1tu2lzYAetIwX7QHwRsADnQTAaUEjB0clGiQThPAMuen1iB6Sl2hHis&usqp=CAU" alt="Reloj Modelo Tau">
+                        <h3>Reloj Modelo Tau</h3>
+                        <p class="precio">$67,000 COP</p>
+                        <span class="disponibilidad en-stock">En stock</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                    <div class="tarjeta-reloj item-producto" data-material="acero" data-precio="$62,000 ">
+                        <img src="https://m.media-amazon.com/images/I/81Uw1RKHbdL.jpg" alt="Reloj Modelo Ípsilon">
+                        <h3>Reloj Modelo Ípsilon</h3>
+                        <p class="precio">$62,000 COP</p>
+                        <span class="disponibilidad en-stock">En stock</span>
+                        <a href="detalles-del-producto.html" class="btn btn-pequeno">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor">
+            <p>&copy; 2025 LuxTime. Todos los derechos reservados.</p>
+            <div class="socials">
+                <a href="" title="Facebook" target="blank">
+            <img src="./social/facebook.png" alt="">
+        </a>
+        <a href="" title="Instagram" target="blank">
+            <img src="./social/instagram.png" alt="">
+        </a>
+        <a href="" title="Email" target="blank">
+            <img src="./social/gmail.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
