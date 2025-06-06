@@ -1,6 +1,6 @@
-# Nombre de Tu Proyecto ✨
+# LuxTime ✨
 
-¡Bienvenido al repositorio de **[Nombre de tu Proyecto]**! Este es un proyecto de desarrollo web frontend, construido principalmente con HTML y CSS.
+¡Bienvenido al repositorio de **LuxTime**! Este es un proyecto de desarrollo web frontend, construido principalmente con HTML y CSS.
 
 ---
 
@@ -8,23 +8,29 @@
 
 ¡Mira el proyecto en acción!
 
-[![Captura de pantalla del sitio web](ruta/a/tu/captura-de-pantalla.png)](https://tu-link-de-despliegue.com)
-
-*Si ya tienes el sitio web desplegado en un servidor (por ejemplo, GitHub Pages, Netlify, Vercel), coloca aquí el enlace y, opcionalmente, una captura de pantalla.*
+en este espacio se mostraran las vistas previas de la pagina 3 imagenes en forma de carrusel, 
 
 ---
 
 ## 💡 Descripción General
 
-Este proyecto [describe brevemente de qué trata tu sitio web. Ej: "es una página de aterrizaje responsiva", "un portafolio personal", "una galería de productos", "un clon de un sitio web popular"]. Fue creado con el objetivo de [menciona el propósito o lo que querías aprender/demostrar. Ej: "demostrar habilidades en diseño responsivo", "practicar con Flexbox/Grid", "crear una interfaz de usuario limpia y moderna"].
+Este proyecto LuxTime nace de la pasión por la relojería de precisión, buscando crear piezas que no solo den la hora, sino que sean una verdadera obra de arte y una declaración de estilo. La marca tiene una tradición de más de cinco décadas, lo que indica una larga trayectoria en el mundo de la relojería. Fue creado con el objetivo de celebrar el tiempo a través de relojes de lujo y precisión, ofreciendo piezas que no solo midan el tiempo, sino que lo conmemoren y sean una declaración de estilo.
 
+Este proyecto de LuxTime está diseñado para ser una plataforma elegante y funcional que muestra relojes de alta gama. Incluye:
+
+* **Página de Inicio (`index.html`):** Una bienvenida atractiva con banners deslizantes que destacan la esencia de la marca, una sección de "Historia" resumida y relojes destacados.
+* **Página de Catálogo (`catalogo.html`):** Una galería completa de productos con opciones de filtrado por material y rango de precios, permitiendo alternar entre vista de cuadrícula y lista.
+* **Página de Detalles del Producto (`detalles-del-producto.html`):** Una vista detallada de cada reloj, incluyendo especificaciones técnicas (material, movimiento, tamaño, resistencia al agua, peso, funciones) y opciones de personalización como grabado y cambio de correa.
+* **Página de Historia (`historia.html`):** Un recorrido cronológico por la trayectoria de LuxTime, desde sus humildes comienzos en 1950 hasta la visión de 2025 y más allá, complementado con una galería de imágenes de momentos clave.
+* **Página de Contacto (`contacto.html`):** Un formulario de contacto interactivo y detalles de contacto directo (correo, teléfono, dirección).
+
+El objetivo es ofrecer una experiencia de usuario fluida y visualmente atractiva, reflejando el lujo y la precisión de los productos LuxTime.
 ---
 
 ## 🛠️ Tecnologías Utilizadas
 
 * **HTML5:** Para la estructura semántica del contenido.
-* **CSS3:** Para el estilizado y diseño responsivo.
-    * [Opcional: Si usaste alguna librería o preprocesador, añádelo aquí, ej: Sass/SCSS, Bootstrap, Tailwind CSS, etc.]
+* **CSS:** Para el estilizado y diseño responsivo.
 
 ---
 
@@ -34,13 +40,13 @@ Para explorar este proyecto en tu propia máquina:
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/TuUsuarioDeGitHub/nombre-de-tu-repositorio.git](https://github.com/TuUsuarioDeGitHub/nombre-de-tu-repositorio.git)
+    git clone [https://github.com/Yejaco16/Pagina_LuxTime_Yessica_Jaramillo](https://github.com/Yejaco16/pagina_LuxTime_Yessica_Jaramillo)
     ```
     (Si estás usando SSH, reemplaza la URL HTTPS por la URL SSH: `git clone git@github.com:TuUsuarioDeGitHub/nombre-de-tu-repositorio.git`)
 
 2.  **Navega al directorio del proyecto:**
     ```bash
-    cd nombre-de-tu-repositorio
+    cd pagina_LuxTime_Yessica_Jaramillo
     ```
 
 3.  **Abre el archivo `index.html`:**
@@ -50,33 +56,6 @@ Para explorar este proyecto en tu propia máquina:
 
 ## 🎨 Estructura del Proyecto
 
-* `index.html`: La página principal del sitio web.
-* `css/`:
+**index.html**: La página principal del sitio web.
     * `styles.css`: Hojas de estilo principales del proyecto.
-    * [Opcional: `reset.css`, `responsive.css`, `components.css`, etc.]
-* `img/`: Contiene todas las imágenes utilizadas en el proyecto.
-* `js/`: [Opcional: Si tienes archivos JavaScript.]
-    * `script.js`: Archivos de JavaScript para añadir interactividad.
-
----
-
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Si encuentras un error o tienes una sugerencia de mejora, por favor, abre un "issue" o envía un "pull request".
-
----
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia [Nombre de la Licencia, ej: MIT License]. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
-## ✉️ Contacto
-
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
-
-* **[Tu Nombre Completo/Nombre de Usuario de GitHub]**
-* **GitHub:** [@TuUsuarioDeGitHub](https://github.com/TuUsuarioDeGitHub)
-* **Email:** [tu.email@example.com](mailto:tu.email@example.com)
-* [Opcional: LinkedIn, Twitter, tu Portafolio Web, etc.]
+**img/**: Contiene las imágenes utilizadas para las redes sociales en el proyecto.
